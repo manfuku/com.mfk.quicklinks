@@ -6,6 +6,7 @@
 </title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="cordova.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"></script>
 
 
 
@@ -14,13 +15,22 @@
 
 <iframe id="viewer" name="iframe" src="https://m.clickthecity.com/movies/theaters/robinsons-place-las-pinas" scrolling="yes" frameborder="0" ></iframe>
 
-<a target="iframe" href="http://bit.ly/2oXA9Km">Rob LP</a>
-<a target="iframe" href="http://bit.ly/2pueLgW">Rob Mag</a>
+<a target="iframe" href="https://bit.ly/2oXA9Km">RBLP</a>
+<a target="iframe" href="https://bit.ly/2pueLgW">RBMAG</a>
+<a target="iframe" href="https://bit.ly/2pLGI73">GALE</a>
+<a target="iframe" href="https://bit.ly/2oY9KvZ">MOA</a>
+<a target="iframe" href="https://bit.ly/2qlK51x">GRNHLS</a>
 
 <!-- <iframe src="https://rawgit.com/manfuku/quicklinks/master/links.html" allowtransparency="true" scrolling="yes" frameborder="0" ></iframe> -->
 
 
 
 
+<script>
+$('a').click(function(){
+    $('a').removeClass("active");
+    $(this).addClass("active");
+});
+</script>
 </body>
 </html>
