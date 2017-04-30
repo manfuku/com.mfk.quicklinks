@@ -11,6 +11,7 @@ version   	= "0.170530"
 >
 
 <name>Quicklinks</name>
+<description>https://github.com/manfuku/quicklinks</description>
 
 <gap:platform name="android" />
 <!-- <gap:platform name="ios" /> -->
@@ -43,7 +44,7 @@ version   	= "0.170530"
 		<icon src="icon-72.png" 	gap:platform="ios" width="72" height="72" />
 		<icon src="icon-76.png" 	gap:platform="ios" width="76" height="76" />
 		<icon src="icon-120.png" 	gap:platform="ios" width="120" height="120" />
-		<icon src="res/icon.png" 	gap:platform="ios" width="152" height="152" /> 
+		<icon src="icon-152.png" 	gap:platform="ios" width="152" height="152" /> 
 
 <!-- SPLASH OK!!!
 <gap:splash src="res/screen/default.png" />
