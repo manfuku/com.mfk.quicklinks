@@ -36,7 +36,7 @@ version   	= "0.170530"
 <icon src="icon.png" gap:role="default" />
 
 		<!-- ANDOROID -->
-		<icon src="res/icon.png"	gap:platform="android" />
+		<icon src="icon.png"	gap:platform="android" />
 		
 		<!-- IOS REQUIRED ICONS -->
 		<icon src="icon-57.png" 	gap:platform="ios" width="57" height="57" />
