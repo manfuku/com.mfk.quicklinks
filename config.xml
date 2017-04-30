@@ -26,11 +26,11 @@ version   	= "0.170530"
 <preference name="show-splash-screen-spinner" 	value="true" />           <!-- ios: splash spinner visibility -->
 <preference name="auto-hide-splash-screen"    	value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
 
-<!-- IOS INLINE PLAYBACK -->
-<preference name="AllowInlineMediaPlayback" 	value="true" />
+<!-- IOS INLINE PLAYBACK
+<preference name="AllowInlineMediaPlayback" 	value="true" /> -->
 
-<!-- KEYBOARD FIX ANYARE!? -->
-<preference name="android-windowSoftInputMode" 	value="adjustResize" />
+<!-- KEYBOARD FIX ANYARE!?
+<preference name="android-windowSoftInputMode" 	value="adjustResize" /> -->
 
 <!-- ICONS -->
 <icon src="icon.png" gap:role="default" />
